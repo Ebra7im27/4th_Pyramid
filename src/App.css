@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+body {
+    font-family: "Inter", sans-serif !important;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ................................................................................................ */
+/* upNavBar */
+
+.subnav-header {
+    background-color: #000000;
+    height: auto;
+    color: white;
+    padding: 10px 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.subnav-header .subnav-nav {
+    width: 80%;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100%;
+    gap: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.subnav-header .subnav-nav .subnav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+.subnav-text,
+.subnav-link {
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subnav-link {
+    font-weight: 600;
+}
+
+.subnav-select select {
+    background-color: #000000;
+    border: none;
+    color: white;
+}
+
+/* ................................................................................................ */
+/* NavBar */
+div .navbar-brand {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 3%;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 48px;
+}
+
+.navbar-nav li .nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.navbar-nav li .nav-link:focus {
+    text-decoration: underline;
+}
+
+/* ................................................................................................ */
+/* Footer */
+.menu-footer {
+    list-style: none;
+    line-height: 2;
+}
+
+.link-footer:hover {
+    text-decoration: underline;
+}
+
+.footer_Adidas {
+    background-color: black;
 }
