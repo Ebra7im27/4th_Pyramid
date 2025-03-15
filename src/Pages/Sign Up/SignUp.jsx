@@ -9,7 +9,7 @@ export default function SignUp() {
             <UpNavBar />
             <Header />
             <section style={{ marginTop:"60px" ,marginBottom:"140px" }}>
-                <div className="container-f">
+                <div className="container">
                     <div className="row">
                         <div className="col-xl-6 col-12 d-none d-sm-block my-4">
                             <div className="singUp-image" style={{ height: "781px" }}>
@@ -143,5 +143,5 @@ export default function SignUp() {
             </section>
             <Footer />
         </>
-    );
+    )
 }
